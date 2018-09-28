@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+ 
+ .b1 img{
+	 margin-left:50px;
+	 float:left;}
+.ct{
+	width:1200px;
+	
+	float:left;
+	
+	border-radius:5px 5px 0 0;
+	height:100px;}
+.lg{
+	width:599px;
+	height:549px;
+	float:left;
+
+	border-bottom:#CCC 1px dotted;
+	}
+#lg{
+	border-right:1px #CCCCCC dotted;
+	width:600px;}
+.lg1{
+	width:599px;
+	height:550px;
+	float:left;
+	
+	
+	}
+#lg h3{
+	margin:5px 25px 10px 50px;
+	font-size:14px;
+	text-align:justify;
+	font-family:"宋体";
+	font-weight:lighter;
+	line-height:20px;
+	
+	}
+#lg img{
+	margin:12px 15px 0 50px;
+	box-shadow:3px 3px 10px #000000; }
+	.lg h3{
+	margin:5px 50px 10px 25px;
+	font-size:14px;
+	text-align:justify;
+	font-family:"宋体";
+	font-weight:lighter;
+	line-height:20px;
+	
+	}
+	
+	
+	.lg1 h3{
+	margin:5px 25px 10px 50px;
+	font-size:14px;
+	text-align:justify;
+	font-family:"宋体";
+	font-weight:lighter;
+	line-height:20px;
+	
+	}
+.lg1 img{
+	margin:12px 15px 0 25px;
+	box-shadow:3px 3px 10px #000000; }
+	.lg1 h3{
+	margin:5px 50px 10px 25px;
+	font-size:14px;
+	text-align:justify;
+	font-family:"宋体";
+	font-weight:lighter;
+	line-height:20px;
+	
+	}
+	
+.lg img{
+	margin:12px 50px 0 25px;
+	box-shadow:3px 3px 10px #000000; }
+
+
+.hz{
+	width:160px;
+	height:35px;
+	margin:25px 0 0 50px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	}
+.hz:hover{
+	box-shadow: 0px 0px 5px #333;
+	cursor:pointer;
+	 }
+.hz a{
+	margin:50px 10px 0 20px;
+	font-family:"宋体";
+	font-weight:lighter;
+	font-size:15px;
+	line-height:35px;}
+	
+	
+	
+	
+	.h3{
+	width:160px;
+	height:35px;
+	margin:25px 0 0 25px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	}
+.h3:hover{
+	box-shadow: 0px 0px 5px #333;
+	cursor:pointer;
+	 }
+.h3 a{
+	margin:50px 10px 0 20px;
+	font-family:"宋体";
+	font-weight:lighter;
+	font-size:15px;
+	line-height:35px;}
+#lg h4{
+	font-size:8px;
+	font-family:"宋体";
+	font-weight:lighter;
+	float:right;
+	margin:5px 25px 0 0;
+	color:#ccc;}
+ .d{
+	font-size:13px;
+	font-weight:200;
+	color:#999;}
+.lg h4{
+	font-size:8px;
+	font-family:"宋体";
+	font-weight:lighter;
+	float:right;
+	margin:5px 50px 0 0;
+	color:#ccc;}
+ .d1{
+	font-size:13px;
+	font-weight:200;
+	color:#999;}
+.lg1 h4{
+	font-size:8px;
+	font-family:"宋体";
+	font-weight:lighter;
+	float:right;
+	margin:5px 50px 0 0;
+	color:#ccc;}
+.b2 h3{
+	color:#666666;}
+.h3,.hz{
+	color:#969696;}

@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>守护祖国环境，你我有责。</title>  
+        <script type="text/javascript" src="js/lib/jquery.js"></script>
+          <script type="text/javascript" src="js/lib/raphael-min.js"></script>
+           <script type="text/javascript" src="js/res/chinaMapConfig.js"></script>
+           <script  src="font/iconfont.js"></script>
+
+           <script type="text/javascript" src="js/map.js"></script>
+              <link href="css/head.css" type="text/css" rel="stylesheet"/>
+                  <link href="css/body.css" type="text/css" rel="stylesheet"/>
+                   <link href="css/foot.css" type="text/css" rel="stylesheet"/>
+      <!--  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>-->
+        
+        
+
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css">
+        
+
+        <style type="text/css" >
+           .wrap{
+			   width:1200px;
+			   height:500px;
+			   float:left;
+			   background:url(img/65.gif);
+			   float:left;
+			  
+			   text-align:center;
+			   margin-top:50px;
+			   border-radius:0 0 5px 5px;
+			}
+					.stateTip, #StateTip{display:none; position:absolute;        padding:8px; background:#fff; border:2px solid #2385B1;           -moz-border-radius: 4px; -webkit-border-radius: 4px;              border-radius: 4px; font-size:12px; font-family:Tahoma; color:#333;}
+				
+			.icon {
+			   width: 1em; height: 1em;
+			   vertical-align: -0.15em;
+			   fill: currentColor;
+			   overflow: hidden;
+			   float:left;
+			   margin:10px 0 0 5px;
+			   font-size:18px;
+			}
+
+		
+        </style>
+       <script type="text/javascript">
+$(function(){
+
+	$('#ChinaMap1').SVGMap({
+		mapName: 'china',
+		mapWidth:1200,
+		mapHeight: 500,
+		
+		 stateData: {
+                    'heilongjiang': {'stateInitColor': 1, 'baifenbi': 0.236},
+                    'beijing': {'stateInitColor': 2},
+                    'shanghai': {'stateInitColor': 3},
+                    'tianjin': {'stateInitColor': 4},
+                    'sichuan': {'stateInitColor': 5},
+                    'shandong': {'stateInitColor': 6},
+                    'shanxi': {'stateInitColor': 3},
+                    'zhejiang': {'stateInitColor': 4},
+                    'jiangshu': {'stateInitColor': 2},
+                    'hunan': {'stateInitColor': 4},
+                    'guizou': {'stateInitColor': 5},
+                    'neimenggu': {'stateInitColor': 6},
+                    'henan': {'stateInitColor': 3},
+                    'gansu': {'stateInitColor': 4},
+                    'ningxia': {'stateInitColor': 2},
+					 'jilin': {'stateInitColor': 2},
+                   /* 'jilin': {'diabled': true}*/
+                },
+				 stateTipHtml: function(stateData, obj){
+        return  obj.name+'<br/>环境质量：特好';
+    }
+
+		
+	});
+	
+
+    });
+
+
+
+
+	
+		
+	
+
+
+	
+
+</script>
+	</head>
+	<body bgcolor="#EAEAE8">
+		<div class="b1">
+            <img src="img/mlzg.gif">
+            <div class="wz">
+                <ul>
+                
+                 <li><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-msnui-home-inverse"></use>
+</svg> <a href="../index.html"> 首页</a></li>
+                   <li><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-denglu"></use>
+</svg><a>登陆</a></li>
+                   <li><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-iconmore"></use>
+</svg><a>更多</a>
+</li>
+
+                </ul>
+            </div>
+      
+        </div>
+    <div class="b2"> 
+           	<div class="ct">
+	<div class="search d6">
+	<form>
+	  <input type="text" placeholder="搜索从这里开始...">
+	  <button type="submit"></button>
+	</form>
+	</div>
+	
+</div>
+           	<div class="lg" id="lg">
+                <h2><a>夜色布尔津</a></h2>
+                <h3>拍摄完喀纳斯，便踏上回程之路。回到布尔津附近时已是深夜。没有月光，除了远处县城依稀的灯光和偶尔驶过的车灯外，便是一片漆黑，伸手不见五指，只能在满天繁星的映衬下依稀看见些随风而动的树影。而这，正是拍摄银河的最佳时机。
+</h3>
+                <img src="img/IMG_2956.gif">
+                <div class="hz"><a>查看本期全部作品</a></div>
+              <h4>发表于<a class="d">2018年7月4号</a> | 发表在<a class="d">邢台</a></h4>
+      </div>
+            <div class="lg">  <h2><a>冲乎尔牧场</a></h2>
+                <h3>告别禾木乡，继续向喀纳斯方向前行，途中经过冲乎尔乡。这里是一个天然牧场，坐落在小盆地，群山环抱，乡民主要以放牧为生。果然，不时就能看见牧羊人赶着几百头“阿勒泰大尾羊”在公路上浩浩荡荡地走着，一路扬起滚滚烟尘，甚是壮观。
+</h3>
+                <img src="img/2.gif">
+                <div class="h3"><a>查看本期全部作品</a></div>
+              <h4>发表于<a class="d1">2018年7月4号</a> | 发表在<a class="d">邢台</a></h4></div>
+            <div class="lg" id="lg">  <h2><a>禾木掠影</a></h2>
+                <h3>一路北行，来到禾木乡。这里几乎是中国的最西北角，与哈萨克斯坦、俄罗斯和蒙古等三国接壤。禾木地广人稀，和我去过的许多边境小城很像。穿行而过，不见几户人家，除了几个正在建设的小旅馆外，能零星看到的只是几个小木屋和蒙古包。
+
+</h3>
+                <img src="img/3.gif">
+                <div class="hz"><a>查看本期全部作品</a></div>
+              <h4>发表于<a class="d">2018年7月4号</a> | 发表在<a class="d">邢台</a></h4></div>
+            <div class="lg">  <h2><a>北疆树林</a></h2>
+                <h3>继续在铁热克提附近沿着蜿蜒的小道行摄，不知不觉间便绕到这座高山的另一侧。这里的杨树长得更高耸茂密，西斜的阳光恰到好处地将树梢照得金黄透亮，一道道树影投射在绒毛地毯般的草甸上，构成近乎完美的光影，令人心旷神怡，不舍离。
+</h3>
+                <img src="img/4.gif">
+                <div class="h3"><a>查看本期全部作品</a></div>
+              <h4>发表于<a class="d1">2018年7月4号</a> | 发表在<a class="d">邢台</a></h4></div>
+            <div class="lg1" id="lg">  <h2><a>猫头山</a></h2>
+                <h3>这是猫头山，整体自东向西延伸入海，因形似一只卧在海上的小猫而得名，早在清朝光绪年间便有记载。站在“猫头”上环顾四周，夕阳透过西边靖子山上的灯塔洒落在东边的黑岛上，波涛不断拍打着脚下的海蚀岩。如此美景，可真让人赏心悦目。
+银河的最佳时机。
+</h3>
+                <img src="img/5.gif">
+                <div class="hz"><a>查看本期全部作品</a></div>
+              <h4>发表于<a class="d">2018年7月4号</a> | 发表在<a class="d">邢台</a></h4></div>
+            <div class="lg1">  <h2><a>在路上（那曲篇）</a></h2>
+                <h3>又是一辑《在路上》。进入那曲地区之后，才真切地感受到：这才是真正的青藏高原！这里没有之前的大山大水和“九曲十八弯”的盘山公路，取而代之的是辽阔的大草原还有像高速公路一样笔直的国道。因为这一段青藏公路基本都是冻土陆基，所以路旁都要插满这些保温棒，以保证夏天陆基不会融化。令人欣喜的是，居然开始下雪了。</h3>
+                <img src="img/6.gif">
+                <div class="h3"><a>查看本期全部作品</a></div>
+              <h4>发表于<a class="d1">2018年7月4号</a> | 发表在<a class="d">邢台</a></h4></div>
+            
+           	
+        <div class="wrap">
+	    <div class="items" id="Item1">
+	    <div class="itemCon">
+	           <div id="ChinaMap1"></div>
+	           
+	        </div>
+         </div>
+      </div>
+    </div>
+  <div class="bq">
+  
+     <div class="bqwz">
+      <p class="zx">此网站为公益网站</p>
+      <p>如因作品内容、版权和其它问题需要同本网联系的，请在15个工作日内告知我方</p>
+      <p class="yx">邮箱：<a href="https://login.live.com/">hr494@outlook.com</a></p>
+      <p>版权所有：Everlasting pride Copyright © 2017-2018 All Rights Reserved.</p>
+      <p class="df"><a href="#">版权所有</a> <a href="#" >使用条款</a> <a href="#"> 隐私通告</a> <a href="#"> 手机访问</a> <a href="#"> 网址索引 </a><a href="#"> 提防诈骗 </a><a href="#"> 帮助</a></p>
+     
+     
+      
+   </div>
+  
+  </div>
+       
+    
+	</body>
+</html>

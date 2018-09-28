@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+.b1{
+	width:100%;
+	height:450px;
+	float:left;
+	background:#093;}
+.b1 img{
+	width:100%;
+	height:450px;}
+.b4{
+	width:40%;
+	height:500px;
+	float:right;
+	background:#AEAFAA;
+	margin:10px 0 0 0;}
+.b3{
+	width:18%;
+	height:250px;
+	margin:10px 1% 0 1%;
+	background:#CCC;
+	float:left;}
+	.b3 img{
+		width:100%;
+		height:250Px;}
+	.b2{
+	width:40%;
+	height:250px;
+
+	background:#F00;
+	margin-top:10px;
+	float:left;
+	font-size:80px;
+	font-family:"宋体";
+	background:#FFF;}
+		.b7{
+	width:40%;
+	height:250px;
+
+	background:#A57F4E;
+	margin-top:10px;
+	float:right;
+	overflow:hidden;}
+		.b6{
+	width:38%;
+	height:500px;
+
+	background:#AEAFAA;
+	
+	float:left;
+	margin:10px 1% 0 1%;}
+.b5{
+	width:20%;
+	height:500px;
+	float:left;
+	background:#FFF;
+	margin-top:10px;}
+.b8{
+	width:39%;
+	height:320px;
+	background:#AEAFAA;
+	float:left;
+	margin:10px 1% 0 0;}
+.b9{
+	width:60%;
+	height:320px;
+	background:#A57F4E;
+	float:right;
+	margin:10px 0 0  0 ;
+	overflow:hidden;
+	}
+	.p{
+				color:white;
+				font-family: "宋体";
+				font-size:30px;
+				text-align:center;
+				width:20%;
+				height: 40px;
+				background: rgba(0,0,0,0.3);
+				line-height: 40px;
+				display:none;   /*块元素，不显示*/
+				position: absolute;
+				margin:-20% 40% 0 20%;
+			}
+.b1:hover .p{
+				display:block;  /*块元素，显示*/
+			}
+		.p1{
+				color:white;
+				font-family: "宋体";
+				font-size:30px;
+				text-align:center;
+				width:20%;
+				height: 40px;
+				background: rgba(0,0,0,0.3);
+				line-height: 40px;
+				display:none;   /*块元素，不显示*/
+				position: absolute;
+				margin:-23% 40% 0 20%;
+			}
+.b1:hover .p1{
+				display:block;  /*块元素，显示*/
+			}
+			.p2{
+				color:white;
+				font-family: "宋体";
+				font-size:30px;
+				text-align:center;
+				width:20%;
+				height: 40px;
+				background: rgba(0,0,0,0.3);
+				line-height: 40px;
+				display:none;   /*块元素，不显示*/
+				position: absolute;
+				margin:-26% 40% 0 20%;
+			}
+.b1:hover .p2{
+				display:block;  /*块元素，显示*/
+			}
+		.b2 em{
+			width:60%;
+			margin:20px 20% 0 0;}
+	.b7 h1{
+		width:20%;
+		margin:5px 70% 10px 10%;
+		float:left;
+		color:#999;
+	
+		overflow:hidden;}
+	.b7  h3{
+		float:left;
+  
+  
+		margin: 0 55% 5px 5%;
+		width:40%;
+		color:#CCC;}
+		.b6  h3{
+		float:left;
+  
+  
+		margin: 0 15% 5px 5%;
+		width:80%;
+		color:#fff;}
+	.b7  a{
+		float:left;
+  
+  
+		margin: 0 5% 5px 5%;
+		width:90%;
+		color:#CCC;
+		text-align:justify;
+		text-indent:2em;}
+			.b9  h3{
+		float:left;
+  
+  
+		margin: 0 55% 5px 2%;
+		width:40%;
+		color:#CCC;}
+	.b9  a{
+		float:left;
+  
+  
+		margin: 10px 5% 5px 5%;
+		width:90%;
+		color:#CCC;
+		text-align:justify;
+		text-indent:2em;
+		line-height:20px;
+		overflow:hidden;}
+	.b4  p,.b6 p{
+		float:left;
+  
+  
+		margin: 10px 5% 5px 5%;
+		width:90%;
+		color:#fff;
+		text-align:justify;
+		text-indent:2em;
+		line-height:20px;
+		overflow:hidden;}
+		.b4 h1,.b6 h1{
+		width:30%;
+		margin:5px 60% 10px 10%;
+		float:left;
+		color:#999;
+	
+		overflow:hidden;}
+	.b8 a{
+		width:50%;	
+		margin:10px 45% 0 5%;
+		float:left;
+		color:#333;
+		font-size:36px;}
+	.o0{
+		width:150%;
+		height:150px;
+		float:left;
+		margin:10px 10% 0 10%;
+		border-radius:10px;}
+	.tj{
+		float:left;
+		width:150%;
+		height:50px;
+		margin:5px 10% 0 10%;
+		border-radius:10px;}
+	button{
+		font-size:24px;
+		color:#FFF;
+		background:#06F;}
+	.b2 a{
+		width:80%;
+		margin:100px 10% 10px 10%;}
+	.b2 h4{
+		width:80%;
+		margin:10px 10% 0 10%;
+		font-size:20px;
+		color:#999;}
+	.b5 img{
+		width:80%;
+		margin:10px 10% 0 10%;
+		float:left;
+		height:150px;
+		border-radius:50%;}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+  .bq{
+	  width:100%;
+	  height:130px;
+	  background:#FFF;
+	  float:left;}
+.bqwz{
+	width:100%;
+	height:105px;
+
+	margin-top:5px;
+
+	}
+
+.bqtp img{float:left;
+	height:50px;
+	width:auto;
+	margin-right:9%;
+	}
+.bqtp span{
+	line-height:50px;
+	margin-right:20px;
+	float:left;
+	font-size:16px;
+	font-family:"宋体";
+	color:#CCC;}
+	.bqwz p{
+		color:#999;
+		font-size:10px;
+		font-family:"宋体";
+		text-align:center;
+		line-height:19px;
+	
+	
+		}
+	.zx{
+		padding-top:10px;}
+	.bqtp img:hover{
+		background:#999;
+		border:#F00 1px solid;}
+		.df{
+			margin-top:5px;
+			widows:100%;}
+	.df a{
+		margin:2px 10% 0 0;
+		color:#CCC;
+		text-decoration:none;
+	
+		}
+	.df a:hover{
+		color:#00F;
+		text-decoration:underline;}
+	.yx a{
+		color:#CCC;
+		text-decoration:none;}
+	.yx a:hover{
+		color:#00F;
+		text-decoration:underline;}
+		
+	
+	
+	
+
